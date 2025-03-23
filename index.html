@@ -8,7 +8,6 @@
     <script src="index.js" defer></script>
 </head>
 <body>
-
     <header id="container-header">
         <nav id="nav">
             <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup='true' aria-controls='menu' aria-expanded="false"><span id="hamburger"> </span>Menu</button>
@@ -25,14 +24,61 @@
         <p id="ano">© 2025</p>
     </header>
     <main>
-        <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-             Eaque ex recusandae nam, corrupti optio nulla enim perspiciatis quasi saepe magni, amet dolore eveniet,
-             aliquam repudiandae repellat harum id. Beatae, excepturi!
-        </p>
+            <div class="slider">
+
+                <div class="slides">
+
+                    <!--Radio Buttons-->
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+                    <!--Fim Radio Buttons-->
+
+                    <!--Slide images-->
+
+                    <div class="slide first">
+                        <img src="/img/corte1.png" alt="Imagem 1">
+                    </div>
+                    <div class="slide">
+                        <img src="/img/corte2.png" alt="Imagem 2">
+                    </div>
+                    <div class="slide">
+                        <img src="/img/corte3.png" alt="Imagem 3">
+                    </div>
+                    <div class="slide">
+                        <img src="/img/corte4.jpeg" alt="Imagem 4">
+                    </div>
+
+                    <!--Fim Slide images-->
+
+                    <!--Navigation auto-->
+
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                        <div class="auto-btn4"></div>
+                    </div>
+
+                    <!--Fim Navigation auto-->
+                </div>
+
+                <div class="manual-navigation">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                </div>
+
+            </div> 
     </main>
     <footer>
-
+        <p>Lorem ipsum dolor sit amet consectetur
+             adipisicing elit. Quod quaerat sed, aliquid accusamus id a totam
+             natus similique excepturi deserunt incidunt est minus suscipit earum eum sapiente,
+              perspiciatis magnam saepe?
+        </p>
     </footer>
 </body>
 </html>
