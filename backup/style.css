@@ -3,6 +3,12 @@ body{
     padding: 0;
     width: 100%;
 }
+main{
+    background-image: url(/img/fundo.png);
+    background-size: cover; /* Faz a imagem cobrir todo o fundo */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    background-position: center; /* Centraliza a imagem */
+}
 
 .slider{
     margin: 0 auto;
@@ -10,6 +16,8 @@ body{
     width: 800px;
     height: auto;
     overflow: hidden;
+    border-radius: 10px;
+    border: 20px solid #23232e;
 }
 .slides{
     width: 400%;
@@ -264,6 +272,5 @@ body{
     height: 400px;
     background-color: bisque;
     align-items: center;
-
 }
 
