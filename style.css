@@ -155,3 +155,10 @@
 }
 /*Fim do Header*/
 
+main{
+    display: flexbox;
+}
+p{
+    justify-content: center;
+    text-align: center;
+}
