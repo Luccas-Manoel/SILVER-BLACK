@@ -17,7 +17,6 @@
     padding: 1rem;
     background-color: #23232e;
     color: white;
-    position: fixed;
     top: 0;
     left: 0;
     z-index: 1000;
@@ -154,12 +153,11 @@
     }
 }
 /*Fim do Header*/
-
 main{
-    display: flexbox;
-    background-color: black;
-}
-p{
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+    align-items: center;
     justify-content: center;
-    text-align: center;
+    height: 70vh;
 }
